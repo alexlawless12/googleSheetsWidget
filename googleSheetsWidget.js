@@ -19,6 +19,7 @@ async function fetchDataFromGoogleSheets() {
       console.log(`Variable 1: ${variable1}`);
       console.log(`Variable 2: ${variable2}`);
 
+      // Update below fields to customize the text in the widget
       const widget = new ListWidget();
       widget.addText(`Variable 1: ${applicationsSubmitted}`);
       widget.addText(`Variable 2: ${coverLettersLeft}`);
